@@ -1,0 +1,28 @@
+:root {
+	--color-pink: #ff005c;
+}
+
+%style-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 135%;
+	text-transform: uppercase;
+	color: #000000;
+}
+
+%style-card-title {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 135%;
+	color: #000000;
+}
+
+%style-text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 165%;
+	color: #000000;
+}

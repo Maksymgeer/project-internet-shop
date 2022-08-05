@@ -1,0 +1,20 @@
+@media (max-width: 612px) {
+	.modalDialog > div,
+	.modalDialogSec > div {
+		width: 460px;
+	}
+	.close {
+		right: 0px;
+		top: -40px;
+	}
+}
+
+@media (max-width: 500px) {
+	.box-breakage__popup-title {
+		margin-bottom: 25px !important;
+	}
+
+	.box-breakage__input {
+		width: 250px;
+	}
+}

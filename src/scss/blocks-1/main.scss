@@ -1,0 +1,138 @@
+.contacts-sub {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	&__title {
+		@extend %style-title;
+		margin-bottom: 45px;
+		text-align: center;
+	}
+	&__inner-sec {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: flex-start;
+		background: #ffffff;
+		box-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
+		padding: 45px 50px;
+	}
+	&__subtitle {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 135%;
+		color: #000000;
+	}
+
+	&__body-info {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__map {
+		width: 100%;
+	}
+}
+
+.box-contacts {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-right: 60px;
+	&__title-phone {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 135%;
+		color: #797979;
+	}
+
+	&__link-phone {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 165%;
+		color: #000000;
+	}
+
+	&__link-application {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 165%;
+		text-decoration-line: underline;
+		color: #ff005c;
+	}
+}
+
+.time {
+	margin-right: 60px;
+	&__title {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 135%;
+		color: #797979;
+	}
+
+	&__text {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 135%;
+		color: #000000;
+	}
+}
+
+.address {
+	margin-right: 50px;
+	&__title {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 135%;
+		color: #797979;
+	}
+
+	&__text {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 135%;
+		color: #000000;
+	}
+
+	&__subtext {
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 165%;
+		color: #797979;
+	}
+}
+
+.region-contacts {
+	max-width: 444px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-top: -20px;
+	&__title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 135%;
+		color: #000000;
+		margin-bottom: 30px;
+	}
+
+	&__text {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 165%;
+		color: #000000;
+	}
+}

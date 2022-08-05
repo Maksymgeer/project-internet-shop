@@ -1,0 +1,31 @@
+.article {
+	margin: 100px 0px;
+	&__title {
+		font-style: normal;
+		font-weight: 700;
+		font-size: 18px;
+		line-height: 135%;
+		color: #000000;
+		margin-bottom: 45px;
+		text-align: start;
+	}
+
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 28px;
+	}
+
+	&__text {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 165%;
+		color: #000000;
+		margin-bottom: 25px;
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
+}

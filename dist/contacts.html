@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>project-4</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+	<header class="header header_style">
+	<div class="container">
+		<div class="header__inner">
+			<a href="#" class="header__logo-link"><img src="img/header-logo.svg" alt="Logo" class="header__logo-img"></a>
+			<nav class="header__menu">
+				<a href="" class="header-menu__button">
+					<span class="header-menu__lines"></span>
+				</a>
+				<div class="header__menu-box">
+					<ul class="header__list">
+						<li onclick="location.href='http://localhost:3000/#';" class="header__item"><a href="#"
+								class="header__item-link">Главная</a></li>
+						<li onclick="location.href='http://localhost:3000/brand.html';" class="header__item"><a href="#"
+								class="header__item-link">Бренды</a></li>
+						<li onclick="location.href='http://localhost:3000/breakage.html';" class="header__item"><a href="#"
+								class="header__item-link">Поломки</a></li>
+						<li onclick="location.href='http://localhost:3000/news.html';" class="header__item"><a href="#"
+								class="header__item-link">Новости</a></li>
+						<li onclick="location.href='http://localhost:3000/contacts.html';" class="header__item"><a href="#"
+								class="header__item-link">Контакты</a></li>
+					</ul>
+					<a href="tel:+38081250932" class="header__link-phone">+380(812)50932</a>
+				</div>
+				<div class="header-menu__overlay"></div>
+			</nav>
+		</div>
+	</div>
+</header>
+
+	
+<section class="contacts-sub">
+	<div class="container">
+		<h2 class="contacts-sub__title">Наши контакты</h2>
+		<div class="contacts-sub__inner-sec">
+			<h4 class="contacts-sub__subtitle">Посетить наш сервис:</h4>
+			<div class="contacts-sub__body-info">
+				<div class="contacts-sub__box box-contacts">
+					<h6 class="box-contacts__title-phone">Телефон:</h6>
+					<a href="tel:+7(812)509-20-43" class="box-contacts__link-phone">+7 (812) 509-20-43</a>
+					<a href="#" class="box-contacts__link-application">Оставить заявку</a>
+				</div>
+				<div class="contacts-sub__time time">
+					<h6 class="time__title">Часы работы:</h6>
+					<p class="time__text">Пн-Пт: с 10 до 21</p>
+					<p class="time__text">Сб-Вс: с 11 до 20</p>
+				</div>
+				<div class="contacts-sub__address address">
+					<h6 class="address__title">Адрес:</h6>
+					<p class="address__text">Ленинский пр, 136</p>
+					<p class="address__subtext">м. Ленинский проспект</p>
+				</div>
+				<div class="contacts-sub__region region-contacts">
+					<h6 class="region-contacts__title">Как до нас добраться:</h6>
+					<p class="region-contacts__text">Выходя из метро и двигаясь в сторону м. Московская, Вы увидите синее
+						стеклянное здание с двумя этажами, которое находится между двумя универмагами. Вы на месте! Так же,
+						рядом
+						всегда есть свободная парковка!</p>
+				</div>
+			</div>
+		</div>
+		<iframe class="contacts-sub__map"
+			src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d39465.29939684233!2d30.533280069436387!3d50.48099673171496!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1655491143780!5m2!1sru!2sua"
+			width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+			referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+</section>
+
+
+<section class="fix">
+	<div class="container">
+		<h2 class="fix__title">Починить сейчас</h2>
+		<div class="fix__inner">
+			<div class="fix__info info-fix">
+				<h6 class="info-fix__title">Связаться с нами:</h6>
+				<p class="info-fix__text">Заполните форму и мы сразу Вам перезвоним.Так же можете самостоятельно связаться с
+					нами, позвонив по номеру телефона:</p>
+				<a href="tel:+7(812)509-20-43" class="info-fix__link">+7 (812) 509-20-43</a>
+				<p class="info-fix__sub-text">С нетерпением ждем Ваших заявок и звонков!</p>
+			</div>
+			<img src="../img/img-2/fix-img.jpg" alt="Image" class="fix__img">
+			<form class="fix__form">
+				<h6 class="fix__form-title">Заполните форму:</h6>
+				<input type="name" class="fix__input" placeholder="Ваше имя">
+				<input type="phone" class="fix__input" placeholder="Ваш телефон">
+				<button class="fix__btn">Оставить заявку</button>
+			</form>
+		</div>
+	</div>
+</section>
+
+	<footer class="footer">
+	<div class="container">
+		<div class="footer__inner">
+			<div class="footer__box">
+				<div class="footer__logos">
+					<img src="img/header-logo.svg" alt="" class="footer__logo">
+					<h6 class="footer__sub-logo">Ремонт смартфонов</h6>
+				</div>
+				<div class="footer__info">
+					<p class="footer__title">Приходите к нам</p>
+					<div class="footer__info-wrapper">
+						<a href="tel:+7(812)509-20-43" class="footer__info-link">+7 (812) 509-20-43</a>
+						<p class="footer__info-text">Пн-Пт: с 10 до 21, Сб-Вс: с 11 до 20</p>
+					</div>
+					<p class="footer__info-globaltext">Наш сервисный центр, находится прямо возле странции метро
+						Ленинский проспект. Чтобы к нам попать, Вам необходимо начать
+						движение в сторону метро Московская. Мы располагаемся между
+						зданий «Нарвского универмага». Так же возле нашего сервисного
+						центра Вы всегда найдете парковочное место. </p>
+				</div>
+				<div class="footer__region">
+					<p class="footer__city-title">г. Санкт-Петербург</p>
+					<div class="footer__region-texts">
+						<p class="footer__region-text">Ленинский пр, 136</p>
+						<p class="footer__region-subtext">Ленинский проспект</p>
+					</div>
+				</div>
+			</div>
+			<!--<div class="footer__comp-brand"> -->
+			<div class="footer__companies companies-footer">
+				<p class="companies-footer__title">Компания</p>
+				<ul class="companies-footer__menu">
+					<li class="companies-footer__item"><a href="#" class="companies-footer__link">Главная</a></li>
+					<li class="companies-footer__item"><a href="#" class="companies-footer__link">О компании</a></li>
+					<li class="companies-footer__item"><a href="#" class="companies-footer__link">Новости</a></li>
+					<li class="companies-footer__item"><a href="#" class="companies-footer__link">Акции</a></li>
+					<li class="companies-footer__item"><a href="#" class="companies-footer__link">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="footer__brands brands-footer">
+				<p class="brands-footer__title">Ремонт брендов</p>
+				<div class="brands-footer__wrapper">
+					<ul class="brands-footer__menu">
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Xiaomi</a></li>
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Apple</a></li>
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Huawei</a></li>
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Honor</a></li>
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Meizu</a></li>
+					</ul>
+					<ul class="brands-footer__menu">
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Samsung</a></li>
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Nokia</a></li>
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Lenovo</a></li>
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Sony</a></li>
+						<li class="brands-footer__item"><a href="#" class="brands-footer__link">Asus</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<div class="sub-footer">
+	<p class="sub-footer__text">©2020 remont-telephone.ru</p>
+</div>
+
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>

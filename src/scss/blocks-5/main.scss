@@ -1,0 +1,66 @@
+.our-company {
+	margin: 100px 0px;
+	&__title {
+		@extend %style-title;
+		margin-bottom: 45px;
+		text-align: center;
+	}
+	&__inner {
+		background: #ffffff;
+		box-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
+		padding: 33px 47px;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	&__text {
+		@extend %style-text;
+		margin-bottom: 30px;
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
+	&__link {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 15px;
+		line-height: 165%;
+		text-decoration-line: underline;
+		color: #ff005c;
+	}
+}
+
+.certificate {
+	margin-bottom: 100px;
+	&__inner {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 44px;
+	}
+
+	&__wrapper {
+		background: #ffffff;
+		box-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
+		padding: 39px 28px;
+	}
+
+	&__title {
+		@extend %style-title;
+		margin-bottom: 45px;
+		text-align: center;
+	}
+
+	&__box {
+		background: #ffffff;
+		box-shadow: 0px 0px 30px rgba(0, 133, 255, 0.15);
+		max-width: 590px;
+		padding: 39px 55px;
+	}
+}
+
+.certificate__slider .slick-dots {
+	right: 40%;
+	bottom: 0;
+}
