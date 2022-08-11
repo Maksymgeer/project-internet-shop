@@ -1,2 +1,2 @@
-# project-portfolio-internet-shop
+# project-internet-shop
 Crach project-git
