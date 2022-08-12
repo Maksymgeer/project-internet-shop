@@ -172,7 +172,7 @@ btn.addEventListener("click", () => {
 	more.style.display = "flex"
 });
 
-
+/*
 document.getElementById('go_to_article').onclick = function (event) {
 	window.location.href = 'http://localhost:3000/article.html';
 };
@@ -192,6 +192,8 @@ document.getElementById('go_to_news').onclick = function (event) {
 document.getElementById('go_to_contacts').onclick = function (event) {
 	window.location.href = 'http://localhost:3000/contacts.html';
 };
+*/
+
 
 btn.addEventListener("click", btnClick);
 function btnClick() {
