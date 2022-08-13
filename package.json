@@ -4,6 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "type": "module",
+  "homepage": "https://maksymgeer.github.io/project-internet-shop/",
   "scripts": {
     "dev": "gulp",
     "build": "gulp build --build",
