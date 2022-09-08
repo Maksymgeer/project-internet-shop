@@ -1,0 +1,21 @@
+@media (max-width: 1168px) {
+	.card-news__texts {
+		padding: 22px 22px 32px 24px;
+	}
+}
+
+
+@media (max-width: 720px) {
+	.slick-slide > div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 420px) {
+	.card-news {
+		height: 450px;
+	}
+}

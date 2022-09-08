@@ -119,7 +119,27 @@ $(function () {
 		infinite: true,
 		slidesToShow: 3,
 		slidesToScroll: 3,
-		autoplaySpeed: 300
+		autoplaySpeed: 300,
+		responsive: [
+			{
+				breakpoint: 1000,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+					infinite: true,
+					dots: true
+				}
+			},
+			{
+				breakpoint: 720,
+				settings: {
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					infinite: true,
+					dots: true
+				}
+			}
+		]
 	});
 });
 
@@ -172,27 +192,6 @@ btn.addEventListener("click", () => {
 	more.style.display = "flex"
 });
 
-/*
-document.getElementById('go_to_article').onclick = function (event) {
-	window.location.href = 'http://localhost:3000/article.html';
-};
-
-document.getElementById('go_to_brand').onclick = function (event) {
-	window.location.href = 'http://localhost:3000/brand.html';
-};
-
-document.getElementById('go_to_breakage').onclick = function (event) {
-	window.location.href = 'http://localhost:3000/breakage.html';
-};
-
-document.getElementById('go_to_news').onclick = function (event) {
-	window.location.href = 'http://localhost:3000/news.html';
-};
-
-document.getElementById('go_to_contacts').onclick = function (event) {
-	window.location.href = 'http://localhost:3000/contacts.html';
-};
-*/
 
 
 btn.addEventListener("click", btnClick);
@@ -207,4 +206,5 @@ function btnClick() {
 
 	content.classList.toggle("menu-prices__more");
 };
+
 
