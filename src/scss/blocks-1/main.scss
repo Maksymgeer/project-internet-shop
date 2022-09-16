@@ -21,12 +21,21 @@
 		font-size: 18px;
 		line-height: 135%;
 		color: #000000;
+		margin-bottom: 15px;
 	}
 
 	&__body-info {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+
+	&__body-info__inner {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		row-gap: 20px;
+		
 	}
 
 	&__map {
